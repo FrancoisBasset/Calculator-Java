@@ -3,4 +3,4 @@ A small calculator
 
 **Here is the first mock-up of the app :**
 
-![main](mockups/main.jpg)
+![main](mockups/main.png)
