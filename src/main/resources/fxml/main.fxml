@@ -5,99 +5,99 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.francoisbasset.calculator.controllers.MainController">
    <children>
-      <Button fx:id="sevenButton" layoutX="99.0" layoutY="288.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="7" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="200.0">
+      <Button fx:id="sevenButton" focusTraversable="false" layoutX="99.0" layoutY="288.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="7" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="200.0">
          <font>
             <Font name="Calibri" size="35.0" />
          </font>
       </Button>
-      <Button fx:id="eightButton" layoutX="171.0" layoutY="430.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="8" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="200.0">
+      <Button fx:id="eightButton" focusTraversable="false" layoutX="171.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="8" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="200.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="nineButton" layoutX="387.0" layoutY="464.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="9" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="200.0">
+      <Button fx:id="nineButton" focusTraversable="false" layoutX="387.0" layoutY="464.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="9" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="200.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="fourButton" layoutX="100.0" layoutY="361.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="4" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="300.0">
+      <Button fx:id="fourButton" focusTraversable="false" layoutX="100.0" layoutY="361.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="4" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="300.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="fiveButton" layoutX="239.0" layoutY="420.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="5" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="300.0">
+      <Button fx:id="fiveButton" focusTraversable="false" layoutX="239.0" layoutY="420.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="5" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="300.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="sixButton" layoutX="366.0" layoutY="445.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="6" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="300.0">
+      <Button fx:id="sixButton" focusTraversable="false" layoutX="366.0" layoutY="445.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="6" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="300.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="threeButton" layoutX="498.0" layoutY="420.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="3" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="400.0">
+      <Button fx:id="threeButton" focusTraversable="false" layoutX="498.0" layoutY="420.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="3" AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="400.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="twoButton" layoutX="315.0" layoutY="420.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="400.0">
+      <Button fx:id="twoButton" focusTraversable="false" layoutX="315.0" layoutY="420.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="2" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="400.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="oneButton" layoutX="321.0" layoutY="408.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="1" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="400.0">
+      <Button fx:id="oneButton" focusTraversable="false" layoutX="321.0" layoutY="408.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="1" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="400.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="zeroButton" layoutX="503.0" layoutY="250.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="200.0" text="0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="500.0">
+      <Button fx:id="zeroButton" focusTraversable="false" layoutX="503.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="200.0" text="0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="500.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="dotButton" layoutX="493.0" layoutY="350.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="." AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="500.0">
+      <Button fx:id="dotButton" focusTraversable="false" layoutX="493.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="." AnchorPane.leftAnchor="200.0" AnchorPane.topAnchor="500.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="plusButton" layoutX="338.0" layoutY="238.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="+" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="200.0">
+      <Button fx:id="plusButton" focusTraversable="false" layoutX="338.0" layoutY="238.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="200.0" prefWidth="200.0" text="+" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="200.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="minusButton" layoutX="530.0" layoutY="250.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="-" AnchorPane.leftAnchor="500.0" AnchorPane.topAnchor="200.0">
+      <Button fx:id="minusButton" focusTraversable="false" layoutX="530.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="200.0" prefWidth="200.0" text="-" AnchorPane.leftAnchor="500.0" AnchorPane.topAnchor="200.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="timesButton" layoutX="341.0" layoutY="425.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="x" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="400.0">
+      <Button fx:id="timesButton" focusTraversable="false" layoutX="341.0" layoutY="425.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="200.0" prefWidth="200.0" text="x" AnchorPane.leftAnchor="300.0" AnchorPane.topAnchor="400.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="dividesButton" layoutX="542.0" layoutY="410.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="/" AnchorPane.leftAnchor="500.0" AnchorPane.topAnchor="400.0">
+      <Button fx:id="dividesButton" focusTraversable="false" layoutX="542.0" layoutY="410.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="200.0" prefWidth="200.0" text="/" AnchorPane.leftAnchor="500.0" AnchorPane.topAnchor="400.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="leftBracketButton" layoutX="710.0" layoutY="209.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text="(" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="200.0">
+      <Button fx:id="leftBracketButton" focusTraversable="false" layoutX="710.0" layoutY="209.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text="(" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="200.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="rightBracketButton" layoutX="715.0" layoutY="325.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" text=")" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="300.0">
+      <Button fx:id="rightBracketButton" focusTraversable="false" layoutX="715.0" layoutY="325.0" mnemonicParsing="false" onMouseClicked="#onSymbolButtonClick" prefHeight="100.0" prefWidth="100.0" text=")" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="300.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <Button fx:id="equalButton" layoutX="717.0" layoutY="438.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="100.0" text="=" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="400.0">
+      <Button fx:id="equalButton" focusTraversable="false" layoutX="717.0" layoutY="438.0" mnemonicParsing="false" onMouseClicked="#onEqualButtonClick" prefHeight="200.0" prefWidth="100.0" text="=" AnchorPane.leftAnchor="700.0" AnchorPane.topAnchor="400.0">
          <font>
             <Font size="35.0" />
          </font>
       </Button>
-      <TextField alignment="BOTTOM_RIGHT" layoutX="84.0" layoutY="46.0" prefHeight="200.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <TextField fx:id="calculTextField" alignment="BOTTOM_RIGHT" editable="false" focusTraversable="false" layoutX="84.0" layoutY="46.0" onKeyPressed="#onKeyRelease" prefHeight="200.0" prefWidth="800.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
          <font>
             <Font size="50.0" />
          </font>
